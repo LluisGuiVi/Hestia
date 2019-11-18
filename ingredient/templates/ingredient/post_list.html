@@ -1,0 +1,10 @@
+<div>
+    <h1><a href="/">Ingredients</a></h1>
+</div>
+<ul>
+{% for ingredient in ingredients %}
+    <div>
+        <li><h3>{{ ingredient.name }}</h3></li>
+    </div>
+{% endfor %}
+</ul>
